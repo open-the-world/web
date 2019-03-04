@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* CSSリセット */html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-weight:normal;}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+
+/* 一般・共通設定 */
+body{
+	background: url(images/bg.jpg) repeat-x;
+	font: 16px/30px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",'メイリオ',Meiryo,Helvetica,Arial,Sans-Serif;
+	color: #300;
+}
+
+a{ color: #200a;}
+	a:hover{color:#069;}
+
+#wrapper{
+	width: 960px;
+	height: 10PX;
+	margin: 0 auto;
+}
+#projects h1, #about h1{
+	font-size: 125%;
+	border-left: 5px #d95483 solid;
+	padding-left: 10px;
+	margin-bottom: 15px;
+}
+
+
+/* ヘッダー */
+header{
+	height: 100px;
+	margin: 250px 0 20px;
+	overflow: hidden;
+}
+header .logo{float: left;}
+
+nav{
+	float: right;
+	margin-top: 35px;
+	font-size: 125%;
+}
+	nav li{
+		display: inline;
+		margin-left: 30px;
+	}
+	nav a{
+		color: #666;
+		text-decoration: none;
+	}
+	nav a:hover{color: #69c;}
+
+
+/* メインエリア */
+#hero{
+	margin-bottom: 70px;
+}
+	#hero img{border: 5px #fff solid;}
+	#hero p{
+		font-size: 167%;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+/* 自己紹介 */
+#about{
+	width: 500px;
+	float: center;
+	margin: auto;
+}
